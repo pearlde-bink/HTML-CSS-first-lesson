@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta>
+    <title>Brown Bears</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+    <link href="styleChaos.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./chaos.js" async></script>
+</head>
+<body>
+    <script src="main.js"></script>
+<!--Brown bear-->
+    <a href="./index.html">Brown Bear</a>
+    <a href="./aboutme.html">About Me</a>
+    <h1>The Brown Bear</h1>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#habitat">Habitat</a></li>
+      <li><a href="#media">Media</a></li>
+      <!-- <a href="gi gi do" target="_blank" rel="noopener noreferrer"></a>  -->
+      <!-- de mo sang 1 tab khac -->
+    </ul> 
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p class="firstletter">The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+      <h3>Species</h3>
+      <div id="ulspecies">
+        <ul class="species">
+          <li>Arctos</li>
+          <li>Collarus</li>
+          <li>Horribilis</li>
+          <li>Nelsoni (extinct)</li>
+        </ul>
+      </div>
+      <h3>Features</h3>
+      <p class="firstletter">Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p class="firstletter">Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <button onclick="bearFunc()">Click to change the bear</button>
+      <!-- cach 2 ne <button onclick="document.getElementById('bearA').src='https://cdn.pixabay.com/animation/2022/09/28/13/20/13-20-39-23_512.gif'">Turn on the light</button> -->
+      <img id="bearA" src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg">
+      <button onclick="document.getElementById('bearA').src='https://variety.com/wp-content/uploads/2022/11/cocaine-bear.jpg?w=1000'">Click to change the bear back</button>
+<br><br>
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+    </div>
+<br><br>
+<!--Summary burger-->
+    <ul class="navigation">
+        <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px"></li>
+        <li class="active">Action List</li>
+        <li>Profiles</li>
+        <li>Settings</li>
+    </ul>
+    
+    <div class="search">Search the table</div>
+    <table>
+        <tr>
+            <th scope="col">Company Name</th>
+            <th scope="col">Number of Items to Ship</th>
+            <th scope="col">Next Action</th>
+        </tr>
+        <tr>
+            <td>Adams Greenworks</td>
+            <td>14</td>
+            <td>Package Items</td>
+        </tr>
+        <tr>
+            <td>Davie's Burgers</td>
+            <td>2</td>
+            <td>Send Invoice</td>
+        </tr>
+        <tr>
+            <td>Baker's Bike Shop</td>
+            <td>3</td>
+            <td>Send Invoice</td>
+        </tr>
+        <tr>
+            <td>Miss Sally's Southern</td>
+            <td>4</td>
+            <td>Ship</td>
+        </tr>
+        <tr>
+            <td>Summit Resort Rentals</td>
+            <td>4</td>
+            <td>Ship</td>
+        </tr>
+        <tr>
+            <td>Strike Fitness</td>
+            <td>1</td>
+            <td>Enter Order</td>
+        </tr>
+    </table>
+    <section id="overlay">
+        <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo2">
+<!-- <br><hr><br> -->
+        <form>
+          <h1>Login to start creating a burger!</h1>  
+          <input type="text" name="username" value="Tuanbink">
+        </form>
+    </section>
+<br><br>
+    <div>
+<!-- Jennie -->
+      <label for="user-pw">User-password</label>
+      <input type="password" name="user-pw" id="user-pw">
+<br><br>
+    </div>
+    <div class="range">
+      <form>
+        <label for="volume">I love u</label>
+<hr>
+        <span>Never</span>
+        <input id="volume" name="volume" type="range" min="2" max="100" step="1">
+        <span>Totally</span>
+      </form>
+    </div>
+<br><br>
+    <div>
+
+      <a href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRUSEhIYGBgYGBgYGBgYEhgYGBkYGBgZGhgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQhJCE0NDQ0MTQ0NDQ0NDE0NDQ0NDQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NP/AABEIAPsAyQMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA9EAACAQIDBQYDBwMDBAMAAAABAgADEQQhMQUSQVGBBiJhcZGhEzKxB0JScsHR8BRigiOy4ZKiwvEzU6P/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQMCBAX/xAAjEQEBAAICAwACAgMAAAAAAAAAAQIRAyESMUEiUQRhEzKB/9oADAMBAAIRAxEAPwDoIEOHBG0KCHBAChwQQAQQQQAQQQoAcKCCACCDegvABBBBGAggggAggggAggggAhwocAEEEEAEEEEyAghQ4wEEKHABBBCgBxNSoFBLEADUk2AlH2l7UUsItmO9UI7qKc/Nj90eP1nK9s9oq+Ja9RyEvki3CDpxPibmPROjbU7dYamStO9Rh+GwT/rOvS8z2I+0Oqfkpoo8y3lwExAYDxMN2PIev7RyDTcYP7QKgI+LTVhxsbHpNTS7X4UrvfFA8D8wPK041uE5aHzhNR3G72pz8DfjDUGncsHt/D1DanVUnlcA+hzlqrA6Tz+lQixH7H1mt7NdsnpkU67F6fM5unj/AHCLQdTgjeHrK6q6MGVgCrA3BB0IjkDCCCCACCCHABBBBABBBDtACgggmQEKHCjA4UEEAEzPbPtUuETdSzVnHcXUKNN9h9BxPWW+29pphqL1qhyUZDix0VR4kkDrOEbTxz4iq9aobsx04AcAPACPGbBmtiHqO1SoxZmNyzG5JPOBntG3fgNfp/zLHZOx2qnjbjNWyTdak31EOmSclHtlJtHZ7twPpNxsrsyi2uPaanCbHRdFHpIZc36UnH+3MKGxHPA9VP1kraexnNMZd5eNuE6ouBXkPSR8Ts5SDYTF5MvZ+EcOcOh3XB6gRy9xvDX6zZ9ptiZEgaTEOjIbHMS+GXlGMsdNx2D7T7jDDVD3HPcJPyOfu/lY+hPjOoAzzxvgHeGnGdg7D7aOIo7jtepTsrHiyn5HPibEHxBjqdmmmgh3ggBQQQRAcEEEAVBBBGCYIUEyBwocBMAKETATI2OxS00eo2iKzHyUExk5j9p22C9VcKh7tMbz24uRkD+VT/3GYd3sP50juKxDVHeq57zsznzYlj9ZGCl2AErjGk7Y+ANR/Aazpux8AEUAC0quzezgiLlwmtoJOLlz8q6ePHUScMtpYIZFo05JRJPFrI9eNvFqIu03YyqMbhQ4ItMD2i2AVBdB4zpzpIWIw4IIIixyuNOyWOFOCpIM0HYjafwMTTue453Gzys/yk+TW94O1mzfh1Gyy1HkZnVfoR/LzrxvlNubLHV09GeMEruz+P8AjYalV4sgv+YZN7gyxEGAhwoIjHBBFQAQQQQBMKCCIBCJgJjZMCGxmU+0TG7mDcA5uVToxz9rzTu05r9q2L/+ClfiznoAB9TNYzsnPi2sstgYTfceEqxNf2MpX3j4x8l8caphN5Nlh3SkgLGw+sSe0KrohMQ+FVm3nz5DgI/SpU9CF9Lzi3I6tWlYftIpNipEuMNtFX0lHVwdO+Vo/gkCmwj3B4r58VYXlTjtvlMkW585OekSsp64RTc2h5Dx2TT29iGOVPLwBk6jtNhlVQgc7RnDY6mfvD1EmishyFjfhDy2PHTNdtcKHpmoudhfpOZAazs21MKGouo03Tl0nGF+YqeZEvwerEeX46t9luO38M9MnNG9m4exm6E5J9lOK3cTWpE/Om8PNG/Z79J1oGUynaAQQQ4jCKiYqACHChwBuETDvEMYiETEMYZMQxgRDGcg+0nEb2K3b5IgHVsz9BOtVXsDOM9rW38a4OY31TpcKf1m8TntSnDuqq7IwV/lJFgRzE2nYNe6/mIztnCs9O5N90g25DMWEn9hqBUuDx3T9ZLPPyxXmHjVxtVKgW9MdZmMRhKzoe8+/fRchbiF8fOdICAixhDAL+ESGOWlrNxz3YuzsUQzFiGuN0M11tnfesT4TbYXDMCt+Qv5yyTDhYFIuBDLLdGPUWbUBuDymM2/smo/yNYXJbW5HIHhNymaW8JFdAYa+iVyOp2WrFwQwCb1zd23rX0AItlprNLgNhVFfepuyrl3b7w9zl0mz/pV5SRTpqJu5W9UpJPSsfDncKt+H9JxmhgFfE/DqOURnYM4Glgx97W6zutYggic82Ts6m9TfLi6uxKcb7xt7Qwy8ZSuPlVL2Uw60NqUUpuWRw26zCx3WV8j43WdjWcm2fSC7VwyD7oa/wD+hA9h6zrCy8tslrm5JJlZCoIIYjIIqEIcQHBCEOANExsmKJjZMRAxjLmLYxlzGSPinsCeWZnDtr1t6q9Qaly2fO/7zsu26m7Tc+Htx9rzimMN3bz975zePs8W8wGNWpQWoo1NmH4WAzX3+kkdn3Ick/fBI6HSZfsbjArvQe27UsVB031ByvwJGnlNhRoBHWxy5HUX+s5c545WOvHLyx20FOpJ9GpKpI+jyNVncT69TKZ7Gbap0F36jZs26MifIWAl2hvK/E7KQtvHS97GxF/C+kc/sDxHatKdP4jnui2gLHPwEn0toLUCVKZydbkWt4g24Svw2zEDEXBBGhIIlvhtnIgNuPMzXuC6iUleIqVZHfKJBi2WoVWq2BPIGZbBbOs4ZRbeJLDxBsW66zR4jQiZztfthcNhdxGAqVN5UUHMBvmc8cgfUiOS5XUK5ePbO7AJfbDsc7Va1vyoGVbeFrTronGPs0S+NUnOyPnfibZ+es7Mk67NdOLK7uyoYhQxAFQ4UOIBBBBAIxiWhmJaIiDGni2jNRsoyZ3tZiAtJhe178fC36mcjdr3PM39Z0Dt3iu6FB5/tOfCbxahK3BBBsRmCOB5iaCj2uqqFWoiva3fzVrDnbIn0lAsJ1mssccvcPHK4+naMPUDKGBuCAR5ER8CZTsNtMPRFNj3qfdP5fuH0y/xmrLTgzx8ctOvG7hFfFBBvMbATIbU269V9ynfdvYAcfEzSbSwoqIUOhHOZAbOVHIYdSL+RBimvrr/AI+Nt3Nb/s8f6hB5Z/NeXvZ3tST/AKVY/lY/7TKMlST3iL665+GuYh7N7Pq7hlZt0EEnTTgLR/j8dHJjyXG/5JNOh7+9mIoCRcKu6LcpIepDbzmX7f4wpQWmjFWdxmpIO6neOY8Qo6zl2Kcs5LMWIFrsST6nzmr7Y7RFWuQputMFRy3r3f3AH+MxrnOdfDjqOXky3Wv+zipu4kHmrfz3nYWrAfpOIdjq5SujAXubW8yDr0nX8KpNmY3ZhfTh+g8P3MeXtKrFGJ1j4jaL4xwCIDEVEiKiMIIIIBFMQ0UYkxMmmkTFvYayU8qNqV7Bm/Dp58P36QDnPbPE7z2vxtbkF7o9wTMxJu2K+9UPId301PrcyDK4zpv4UkU2npEpFOcpojuy9ovh6oqIfBhwZTqDOq4XFh1DKf3HhOOvOg7GqHcRgfuj6Tn/AJGM1Ktw5e41amN1NnK+sj0cVzyk5KwtOV0yo9Lsyh1a8tcPgVQWUSGMXaKq7VAGsDuWV+pNRwJle1u32ppuUj33O6G/BlmfOSsVi3e9shMR2nrd9KYPyLc/mb/ge8pxY+WUSzy1iq3ayHxkAC5knEtkB4RvDJc9J3TqbctXOxVKujAXIcZXtc2y6ZTtmBo2F2N2Op06DkJx7CbPqIlLEPTYI1VN1+BBuL5G4FyBcjOdlwZJVcjoOElSs7SVEUISo3L3EUiE6W9YgOHD+E3L6QGmeRgBQQocAiNEMYsxtomTNVsiZju12L3KZANixIHtvN/PGavFPYTmvbvFXqinwVRfzOv1h9OMdWe7XjQ0gcwpeTpo7TiniFhuYEbabrs816SeQmFfjNz2bUqgRtRb3F/1kv5H+sV4/a7WOsDwgtHUGU4nQikHmY5ToSQKckUqcDRqlDunynNMSDUxJXm+70GX6Trjp3SLXnJ6SGniWFRTdHe4GZ46S/B7tS5r1Du0NiOj7r3FxdTbIjzj2A2CGq/DDsV+GHdgBdb37q38hmfGbAPQxKU0BDKtrhTZiQvE2BXhD2Ts3dxThPkKJe+dmBeyg8Ra5lsuSSaQxwyvbWbEw4CU6bC6gKoBGVha2XQeku6lK1rRnZ6d9RyBPtb9ZNxjACR4/W1OT2jCSaKAech0XuDfgYbEmxPSUSWMOQqLtvE3ytp4yYDeIG6lMHzjXwD4eskwRhTtGWjrRlzBhXbQq2GfAE/z3nIO0OJ36tRvG38/nCdP25WsG/KT0ANr9TfpOR7QOjX+Ysf/AHNYzdaiFrDhCGJcyl1EM6w1XKSMNs93+UazOyJwGG+JUSmOJF/LjNxXp/DxL09AQjL5FAPqDGuyOw9xy7gXGQy9dekvO2GAsaOIHL4bHxF2T/ykubvE+PL8go5iPUhrIOBq5AGWNpxO2HVEkLIqmCpVsIG0Ow8LvsXOie7cPTX0mc2h2SR8YcQ2iC7JbIuCd0m+otY28pt8BSFDDqG1Cl3/ADHNv26SlxFYtSaoci59N4gfrL78cdfa5p+WW1dTQEtU3RkCoNuA1PU3k3YGHFjUI+Y36cPpAiAqtMZX+nGW+GpBVssj7WtIpVytVbAFbEOb5rpukc8wZLx5z6Spp336hvncDoAMvcybTq79PW7IdxueWhPmLGWwy+JcmOuwQ92/NvoIe9EAf6Y/N+8FBbt5Z/tKIpqCwi6VcX3byLXMTSo8YwtIm0TTaOXmQpWkau9gSdBmZIaVeLqg31sOQvc/tGwzu3GLI7H71x0yy9MpzHF2yHK/8+s6Dtv4tRAlKi5Nz3t0gAC4HiZmE7J4lz3qbD/E3mseqcZuPUKJY2AJmywvYSrkWU/5EAemsvcH2TVB3zfwXIdTqZTy/Q2yGzNib1t89AfrNhgNlhRoOv7S4wmyQPugAcAJaJhAMrCLcjN3VdgMLuWylntHBfFw1Wna53Sy/mTvC3pbrHkoSfhVtaYy7ax6u3N8EuQMuEp3Ek4zZIpVXQfK3eT8pOnTT0i6NK047NV2y9biMtGPbNwu/XpodAd9vJc/rYdY66/tLXYeGVHL/eK28NQTb0EeM3lCyy1jU3br2pN4iZ/4o+EiHib/APTn+gl7t4XQjwmTokk28CBKc3xPh+rTZyEnePGXSCwkHZtOwEsmEhFMqhpQ3Sx4sbn+dI5hXAd6dvmXfB527rD6eseaQXcCojk2AO6fANl9QJXjn5MZ3cTAncI8f1hYZLA+cOs+Rtnc5e0WgsJ0IEkZjzi3fhEgZxagQAqTm+hkreiU5w98QCmdGYELrz5eMXTwAy3s7aDh/wAyaFAyEAiLRoUwoyGUUFGto4y5RuhpbkYCkVEvIv8ATXMnER1KdhNei1tGSgANIoU/CPuQNTaMNib/ACKW8dBEeilSNPjVU2Qbx9vWIak7nvHLkNJIp4MDhGETEn4gHxBYroQNOfmP2kOrT3bHIg6GXbYfLISt2kgVL/3D31ks8ZZtXjzsulNWJY7q8MyeQHGHgtosp3W4R/AVAHZGy+ILKf7hfLreLxeBF+cnjhubjeWerqlY/aJZDZuHGxlbgk4wsThLZqTbl+0kYXK0WUyntrG46/Fe4GTHOUrKGJC8ZO+KGGszDqLiMRaMVaV0Dnj835W49Mj6xrEoS4UfLqfK+ksxoRbh7S3Fj9S5L8iHhnPdQ6q2fTQyyJlZRTdcDlofDgD5SyQcJVIkrePJTtmY4thAw5mAJuT5RO5Cd+AjecAWYAIUUIgImJpcfOGxhUtIFS0W5jpENFsIdoCG2QHWGqAZWirQ4GJVjoEQBFiMqVaU/aFFFO/EsoHnr9AZcrMxtnEb9bcHy08v8zm3pkOhmM7rFvCbyQHpgixEtNmvvoQxuy5E8SDoT9OkgMIeDq7lQf3d09dPe0lhlrJXPHcTK2GzIlTVbdJXl/BNEwlDtmjY7/PI+fD+eEpyTcS4r+WiKVS/GTaFUgyjwxLOqDIsQovzJsJcrSKl0Zl3k1GeemmWesjI6N6WSgEg/wA8pJY2/nAyvwzx6kjiqaLtvBkLodSBnkTbz9pXjy+JZz6konev0j+kTRSwzEOshFvEXy5SqRt63KAOTrAEjopZKcs7214c4AlVjm54RSrbWD4oiCPeM0653rHMR06SDXyNxGSe7ZGO0VyEiLU3lvJ1LSAh2FDhRGF4IcEAAigYmEdfD9f59YAMVXCI9Q/dUnzI0HU5TH4VSbscySSTzJNyZcdp6/dSiDmx3m/Kug6n/bK+klhIcmXel+Oam/2TUkN2Oo1GY6SVXOUYRLyanxoC/cDDiAR1zkLFKGR97S2Z5cfaPbNbeTcP3Tbocx+o6Q8bRujKMsv1E6pdzbk1q6ZrAKDUpsPxp/uEsdoIwq1Hsbb1gefdF7Sv2dlWRf719mF5P2m/+rUX+6/ookbNdOne7/w7RrTSUqHf+If/AK1QeVyW/wDH0md2bgi/ebJPdvAeHjNNiKliAPwjTgM5vjx+1Pky70bxNwN4Dz/eJxFYWS/FBJRjNdQu7YfdyPhKpGlTicvrHaz2VLcnPQESHUrEmwjmIB3Kfk/vaAEuIF7EZRzfTxkQJFbsDOtIz0yZIeJpnM9IMo1OgQwzyJ0lqhkX7w6/SSFgIcBio2sVEZUESIZgBiKURMjbTcijUIOYRs+hhQzmIq/FrPU+7fdX8q5C3nmesk7thI+B0Em1dJyW77dWvitxLRVISPi9RJFGB1Kw1TccE6HI9dDJ9SqARve+hHFb8DbnKmtp0j2+WpoSb3VT/wBonRxXc05+Sd7M4/ZwV1q0nUkMGsX7pzvnbOSkRd5qjKrO+p3W3Rp8qk+GpkBZNpTfjNs+V9Jquc7e8lrXuQxtcADjb6yuWPU5oljTqR1jvWvbLTI8OechJwkpIgiCmQc5I37hQQLC9tePWHW1EbMAcNMHOD+nMYLnnGf6lvxewgH/2Q==" title="click to download Jennie" download>
+        <img src="data:image/jpeg;base64,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" id="logo1" alt="anh Jennnie xinh dep">
+      </a>
+      <p class="jennie" style="color: bisque;"> Tada! gorgeous me. But why do you hit your mouse on this :[]</p>
+    </div>
+    <br>
+    <iframe width="501" height="498" class="chenAnh" src="https://giphy.com/gifs/art-animation-dog-26FKTsKMKtUSomuNq" title="Dab - overtired (feat. Chilythoi)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    <section id="overlay">
+<br>
+<hr>
+      <form>
+        <h1>Create a burger!</h1>
+        <section class="protein">
+          <label for="patty">What type of protein would you like?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>
+ <hr>
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+<hr>
+        <section class="cooked">
+          <label for="doneness">How do you want your patty cooked</label>
+<br>
+          <span>Rare</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">         					
+          <span>Well-Done</span>
+        </section>
+<hr>
+        <section class="toppings">
+          <span>What toppings would you like?</span>
+<br>
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Onion</label>
+        </section>
+<hr>
+        <section class="cheesy">
+          <span>Would you like to add cheese?</span>
+<br>
+          <input id="yes" type="radio" name="cheese" value="yes">
+          <label for="yes">Yes</label>
+          <input id="no" type="radio" name="cheese" value="no">
+          <label for="no">No</label>
+        </section>
+      </form>
+    </section>
+<br>
+<!-- dropdown list -->
+    <section class="bun-type">
+      <label for="bun" style="color: blueviolet;">What type of <em>Bun</em> would you like?</label>
+      <select id="bun" name="bun" style="color: rgb(178, 5, 155);">
+        <option value="sesame">Sesame</option>
+        <option value="potato">Potato</option>
+        <option value="onion">Onion</option>
+        <option value="ginger">Ginger</option>
+      </select>
+    </section>
+<!-- datalist -->
+<br>
+    <form>
+      <label for="sauce" style="color: rgb(147, 63, 227);">Which one do you would like? </label>
+      <input type="text" id="sauce" list="sauces" name="sauce">
+      <datalist id="sauces">
+        <option value="ketchup"></option>
+        <option value="mayor"></option>
+        <option value="chillies"></option>
+        <option value="Haohao"></option>
+      </datalist>
+    </form>
+<hr>
+<!-- textarea -->
+    <section class="essay">
+      <label for="essay">What does you want to drink</label>
+<br>
+      <textarea name="essay" id="essay" cols="90" rows="20">(try text on this)</textarea>
+      <button
+        type="button" 
+        style="margin-left: 30%; font-size: 20px; border-radius: 6px; cursor: pointer;">
+        Comment</button>
+    </section>
+<br>
+<!-- submit button -->
+  <form action="">
+    <section id="send">
+      <label for="jenniekim">How do you love Jennie Kim?</label>
+<br>
+       <input type="text" id="jenniekim" name="jenniekim" required>
+<br>
+      <input type="submit" id="submission" value="Submit">
+    </section>
+  </form>
+<br>
+<!--Button cac the loai-->
+  <div>
+    <button class="button button1">Green</button>
+    <button class="button button2">Yellow</button>
+    <button class="button button3">Orange</button>
+    <button class="button button4">Red</button>
+    <button class="button button5">Pink</button>
+  </div>
+<br>
+  <div>
+    <button class="pushbutton">Click me</button>
+  </div>
+<br><br>
+
+<!-- card -->
+  <div class="cardCover">
+    <div class="card">
+      <button class="btn btn--success btn--disabled">GO TO APPROVAL</button>
+      <button class="btn btn--warning">OK</button>
+      <button class="btn btn--danger">TRY AGAIN</button>
+    </div>
+  </div>
+
+<!-- transform check -->
+  <div id="trans">
+    <div id="trans1" class="transform--check"></div>
+    <div id="trans2" class="transform--check"></div>
+    <div id="trans3" class="transform--check"></div>
+    <div id="trans4" class="transform--check"></div>
+    <div id="trans5" class="transform--check"></div>
+  </div>
+
+<br><br><br><br>
+  <button onclick="document.getElementById('myImage').src='https://media3.giphy.com/media/7Wg5dcPnZPZcSnoza4/giphy.gif?cid=ecf05e47qff16a3s1r10pdvg38a1vekh2f1lphwm1cevc0w7&rid=giphy.gif&ct=s'">Turn on the light</button>
+  <img id="myImage" src="https://media2.giphy.com/media/1pk2qjqqWFoZWV5hxO/giphy.gif?cid=ecf05e47n4fn4gxxrxr21finw8ecok85crb31ie1g5thl12d&rid=giphy.gif&ct=s" style="width:100px">
+  <button onclick="document.getElementById('myImage').src='https://media0.giphy.com/media/g6dCh79VodwH4OgymF/giphy.gif'">Turn off the light</button>
+<br><br><br>
+
+  <!-- toast message   -->
+  <div id="toast">
+    <!-- Infor -->
+    <!-- <div class="toast toast--infor">
+      <div class="toast__icon">
+        <i class="fa-sharp fa-solid fa-circle-info"></i>
+      </div>
+      <div class="toast__body">
+        <h3 class="toast__title">Infor</h3>
+        <p class="toast__msg">Personal computer connected with your brain to immune system</p>
+      </div>
+      <div class="toast__close">
+        <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+      </div>
+    </div> -->
+  </div>
+  <div>
+    <div onclick="showSuccessToast()" id="btn2" class="btn btn--success">Show succes</div>
+    <div onclick="showWarningToast()" id="btn2" class="btn btn--warning">Show warning</div>
+    <div onclick="showErrorToast()" id="btn2" class="btn btn--danger">Show error</div>
+  </div>
+<br><br><br>
+
+  <!-- scanning finger -->
+  <div id="scan">
+    <div class="scan">
+      <div class="fingerprint"></div>
+      <h3>Scanning....</h3>
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>
